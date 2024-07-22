@@ -14,7 +14,7 @@
     </head>
     <body>
         <h1>Web socket example</h1>
-        <script src="" async defer>
+        <script>
             let ws;
             const proto = window.location.protocol === 'https:' ? 'wss' : 'ws';
             ws = new WebSocket(`${proto}://${window.location.host}`);
